@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    block-size: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(bg3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: cursive;
+}
+
+
+
+.glow {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+.main-contin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    background-color: rgba(250, 235, 215, 0);
+
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    margin: 29px 10px;
+}
+
+
+
+input[type="button"]:active {
+    background-color: rgba(130, 128, 128, 0.503);
+    color: rgb(0, 0, 0);
+}
+
+.number {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes number {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+.w-g {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes w-g {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #66ff00, 0 0 40px #0dff00, 0 0 50px #7ce676, 0 0 60px #0dff00, 0 0 70px #0dff00;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2cff53, 0 0 40px#2cff53, 0 0 50px #94ff4d, 0 0 60px #2cff53, 0 0 70px #2cff53, 0 0 80px #2cff53;
+    }
+  }
+input[type="text"] {
+    background-color: rgba(130, 128, 128, 0.503);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+input[type="button"] {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.484);
+    width: 10vw;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+input[type="button"]:hover{
+    background-color: #ffffff7b;
+}
+
+input[class="clearScreen"] {
+    background-color: rgba(255, 17, 0, 0.23);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input[class="clearScreen"]:hover{
+    background-color: rgb(234, 88, 88);
+}
+
+input[id="result"] {
+    border-radius: 10px;
+    height: 6vh;
+    width: 50vw;
+    border: none;
+    outline: none;
+    background-color: #ffffff3c;
+}
+input[class="equal"] {
+  
+    background-color: #89fb083c;
+}
+input[class="equal"]:hover{
+  
+    background-color: #89f50daf;
+}
+input[id="poiny-btn"]{
+  
+    background-color: #e5d11c87;
+}
+input[id="poiny-btn"]:hover{
+  
+    background-color: #fff200;
+}
